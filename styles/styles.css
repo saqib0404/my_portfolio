@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Common css classes */
+.primary-text {
+    color: rgb(253, 110, 10);
+}
+
+.primary-btn {
+    background: rgb(253, 110, 10);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* header section */
+header {
+    background: rgb(255, 248, 243);
+    background-image: url("../assets/developer.png"), url("../assets/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain, auto;
+    background-position: bottom left, bottom right;
+}
+
+nav {
+    display: flex;
+    padding: 15px 0;
+    margin: 0px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h2 {
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-description {
+    width: 40%;
+    margin-left: 150px;
+}
+
+.banner-description h1 {
+    padding: 10px 0 15px 0;
+    font-size: 38px;
+}
+
+.banner-description p {
+    padding: 0px 0 10px 0;
+}
+
+.banner img {
+    height: 500px;
+    margin-bottom: -5px;
+    margin-right: 130px;
+}
