@@ -67,11 +67,46 @@ nav ul {
     padding: 0px 0 10px 0;
 }
 
-
-
-
 .banner img {
     height: 500px;
     margin-bottom: -5px;
     margin-right: 130px;
+}
+
+/* About Me */
+
+.about-me {
+    width: 70%;
+    margin: 100px auto;
+    padding: 100px 0;
+    background: #FFF8F3;
+}
+
+.about-me-contents {
+    margin: 0px auto;
+    background: white;
+    padding: 10px 8px;
+    width: 60%;
+    border: 1px gray solid;
+}
+
+.about-me h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.about-me p {
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+
+.about-me-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-me-info div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
