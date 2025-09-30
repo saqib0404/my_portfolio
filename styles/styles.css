@@ -105,8 +105,42 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
 .about-me-info div {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+/* My Works */
+.my-works {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.my-works h3 {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.my-works p {
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards div {
+    padding: 30px 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.cards h4 {
+    padding: 10px 0;
 }
