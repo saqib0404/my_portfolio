@@ -144,3 +144,39 @@ nav ul {
 .cards h4 {
     padding: 10px 0;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+footer p {
+    width: 70%;
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-size: 36px;
+}
+
+.footer-info img {
+    padding: 0 10px;
+}
+
+footer input {
+    display: block;
+    width: 100%;
+    margin: 24px 0;
+    border: none;
+    padding: 18px 30px;
+}
+footer textarea {
+    display: block;
+    width: 100%;
+    margin: 24px 0;
+    border: none;
+    padding: 18px 30px;
+}
